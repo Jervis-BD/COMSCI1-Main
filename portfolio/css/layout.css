@@ -23,6 +23,7 @@ h2{
     border-bottom-style: solid;
     border-color: red;
     display: block;
+    
 }
 
 
@@ -52,6 +53,20 @@ h2{
 
 
 /* styling for the section content */
+.about-me content{
+    width: 90%;
+}
+.github-img{
+    float: right
+
+}
+.about-me a{
+    text-decoration: none;
+    color: #00FF73;
+    font-style: italic;
+    text-decoration: underline;
+}
+
 .img1, .img2, .img3{
     display: inline-block;
     width: 200px;height: 200px;
