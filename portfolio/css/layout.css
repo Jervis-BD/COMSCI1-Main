@@ -1,0 +1,91 @@
+/* These are some suggested groupings for your stylesheet... */
+
+
+/* element styling (e.g. standard p, h1, h2, a, etc) */
+
+body{
+    font-family: consolas, sans-serif;
+    font-size: 18px;
+    color: #00FF73;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 12px;
+    padding: 10px;
+    background: linear-gradient(rgb(36, 36, 36) , rgb(3, 86, 3));
+}
+h1{
+    color: red;
+    text-align: center;
+}
+h2{
+    color: red;
+    border-bottom-style: solid;
+    border-color: red;
+    display: block;
+}
+
+
+
+/* navigation styles */
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px;
+    margin-left: 30%;
+
+}
+.navbar a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: red;
+    text-align: center;
+}
+.navbar li{
+    float: left;
+    
+}
+/* main layout */
+
+
+
+
+/* styling for the section content */
+.img1, .img2, .img3{
+    display: inline-block;
+    width: 200px;height: 200px;
+    padding-right: 5%;
+    padding-left: 5%;
+    position: relative;
+    vertical-align: top;
+    padding-bottom: 5%
+}
+.img1-cap, .img2-cap, .img3-cap{
+    width: 400px;height: 200px;
+}
+
+.work-experience dt{
+    font-size: 150%;
+}
+.work-experience dd{
+    font-size: 120%;
+
+}
+
+/* background colours for sections */
+
+
+/* form styling */
+form{
+    color: white;
+}
+
+/* footer styling */
+footer{
+    border-style: dotted;
+    border-color: red;
+    color:white;
+    padding: 5px;
+}
+
