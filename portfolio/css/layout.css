@@ -49,13 +49,18 @@ h2{
 }
 /* main layout */
 
-
+.header-content{
+    color: #00FF73;
+    text-align: center;
+    font-size: 16;
+    
+    border-bottom-style: solid+;
+    border-bottom-color: red;
+}
 
 
 /* styling for the section content */
-.about-me content{
-    width: 90%;
-}
+
 .github-img{
     float: right
 
@@ -69,15 +74,16 @@ h2{
 
 .img1, .img2, .img3{
     display: inline-block;
-    width: 200px;height: 200px;
+    vertical-align: top;
+    width: 200px;
+    height: 200px;
     padding-right: 5%;
     padding-left: 5%;
     position: relative;
-    vertical-align: top;
     padding-bottom: 5%
 }
 .img1-cap, .img2-cap, .img3-cap{
-    width: 400px;height: 200px;
+    width: 375px;height: 200px;
 }
 
 .work-experience dt{
@@ -93,14 +99,18 @@ h2{
 
 /* form styling */
 form{
-    color: white;
+    color: #00FF73;
 }
 
 /* footer styling */
 footer{
     border-style: dotted;
     border-color: red;
-    color:white;
+    color: #00FF73;
     padding: 5px;
 }
 
+footer a{
+    font-style: italic;
+    color: #00FF73;
+}
